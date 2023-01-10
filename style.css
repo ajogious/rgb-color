@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.col {
+  padding: 20px;
+}
+
+.color-box {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 10px auto;
+  box-shadow: 0 0 5px 5px #f0eded;
+}
